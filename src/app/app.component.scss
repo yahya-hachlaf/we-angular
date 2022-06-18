@@ -1,0 +1,14 @@
+main{
+  display: flex;
+  flex-direction: column;
+
+  *:not(router-outlet){
+    flex: 1;
+    display: block;
+  }
+}
+
+.content{
+  flex: 1;
+  height: 100vh;
+}

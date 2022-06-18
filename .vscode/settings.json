@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "gitlens.codeLens.dateFormat": "",
+    "editor.formatOnSave": true,
+
+}
