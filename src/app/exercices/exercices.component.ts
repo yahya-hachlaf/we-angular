@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuItem} from 'primeng/api';
+import { MenuItem } from 'primeng/api';
 @Component({
   templateUrl: './exercices.component.html',
   styleUrls: ['./exercices.component.scss']
@@ -7,95 +7,95 @@ import {MenuItem} from 'primeng/api';
 export class ExercicesComponent implements OnInit {
   topics!: MenuItem[];
   constructor() { }
-
   ngOnInit(): void {
     this.topics = [
       {
-        label: 'Einführung',
+        label: '1. Einführung',
         items: [
-          { label: 'Aufgabe 1', routerLink:""},
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' },
+          { label: 'Aufgabe 4', routerLink: 'ex14' }
         ]
       },
       {
-        label: 'CSS',
+        label: '2. CSS I',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' }
+        ]
+      },{
+        label: '3. CSS II',
+        items: [
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' }
         ]
       },
       {
-        label: 'JavaScript',
+        label: '4. JavaScript',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' },
+          { label: 'Aufgabe 4', routerLink: 'ex14' }
         ]
       },
       {
-        label: 'DOM',
+        label: '5. DOM',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' }
         ]
       },
       {
-        label: 'ECMAScript',
+        label: '6. ECMAScript',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex13' },
+          { label: 'Aufgabe 4', routerLink: 'ex14' },
+          { label: 'Aufgabe 5', routerLink: 'ex11' },
+
         ]
       },
       {
-        label: 'Functional',
+        label: '7. Functional',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' }
         ]
       },
       {
-        label: 'Async',
+        label: '8. Async',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' }
         ]
       },
       {
-        label: 'SVG',
+        label: '9. SVG',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' }
         ]
       },
       {
-        label: 'TypeScript',
+        label: '10. TypeScript',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex11' },
+          { label: 'Aufgabe 2', routerLink: 'ex12' },
+          { label: 'Aufgabe 3', routerLink: 'ex11' }
         ]
       },
       {
-        label: 'Vue',
+        label: '11. PHP',
         items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
-        ]
-      },
-      {
-        label: 'PHP',
-        items: [
-          { label: 'Aufgabe 1' },
-          { label: 'Aufgabe 2' },
-          { label: 'Aufgabe 3' }
+          { label: 'Aufgabe 1', routerLink: 'ex111' },
+          { label: 'Aufgabe 2', routerLink: 'ex112' },
+          { label: 'Aufgabe 3', routerLink: 'ex113' }
         ]
       }
     ];

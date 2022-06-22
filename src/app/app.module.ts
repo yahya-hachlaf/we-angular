@@ -13,8 +13,8 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
@@ -32,7 +32,17 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { AboutComponent } from './about/about.component';
-import {PanelMenuModule} from 'primeng/panelmenu';
+import { PanelMenuModule } from 'primeng/panelmenu';
+import { FieldsetModule } from 'primeng/fieldset';
+import { PanelModule } from 'primeng/panel';
+import { ImageModule } from 'primeng/image';
+
+
+
+import { Ex11Component } from './exercices/tasks/ex11/ex11.component';
+import { Ex12Component } from './exercices/tasks/ex12/ex12.component';
+import { Ex13Component } from './exercices/tasks/ex13/ex13.component';
+import { Ex14Component } from './exercices/tasks/ex14/ex14.component';
 
 
 @NgModule({
@@ -42,7 +52,11 @@ import {PanelMenuModule} from 'primeng/panelmenu';
     FooterComponent,
     HeaderComponent,
     ExercicesComponent,
-    AboutComponent
+    AboutComponent,
+    Ex11Component,
+    Ex12Component,
+    Ex13Component,
+    Ex14Component
   ],
   imports: [
     BrowserModule,
@@ -69,7 +83,10 @@ import {PanelMenuModule} from 'primeng/panelmenu';
     MdbTooltipModule,
     MdbValidationModule,
     MatSidenavModule,
-    PanelMenuModule
+    PanelMenuModule,
+    FieldsetModule,
+    PanelModule,
+    ImageModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
