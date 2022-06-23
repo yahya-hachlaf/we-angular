@@ -21,9 +21,9 @@ export class ExercicesComponent implements OnInit {
       {
         label: '2. CSS I',
         items: [
-          { label: 'Aufgabe 1', routerLink: 'ex11' },
-          { label: 'Aufgabe 2', routerLink: 'ex12' },
-          { label: 'Aufgabe 3', routerLink: 'ex13' }
+          { label: 'Aufgabe 1', routerLink: 'ex21' },
+          { label: 'Aufgabe 2', routerLink: 'ex22' },
+          { label: 'Aufgabe 3', routerLink: 'ex23' }
         ]
       },{
         label: '3. CSS II',

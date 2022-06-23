@@ -36,6 +36,10 @@ import { PanelMenuModule } from 'primeng/panelmenu';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
 import { ImageModule } from 'primeng/image';
+import { DividerModule } from 'primeng/divider';
+import { CardModule } from 'primeng/card';
+
+
 
 
 
@@ -43,6 +47,9 @@ import { Ex11Component } from './exercices/tasks/ex11/ex11.component';
 import { Ex12Component } from './exercices/tasks/ex12/ex12.component';
 import { Ex13Component } from './exercices/tasks/ex13/ex13.component';
 import { Ex14Component } from './exercices/tasks/ex14/ex14.component';
+import { Ex21Component } from './exercices/tasks/ex21/ex21.component';
+import { Ex22Component } from './exercices/tasks/ex22/ex22.component';
+import { Ex23Component } from './exercices/tasks/ex23/ex23.component';
 
 
 @NgModule({
@@ -56,7 +63,10 @@ import { Ex14Component } from './exercices/tasks/ex14/ex14.component';
     Ex11Component,
     Ex12Component,
     Ex13Component,
-    Ex14Component
+    Ex14Component,
+    Ex21Component,
+    Ex22Component,
+    Ex23Component
   ],
   imports: [
     BrowserModule,
@@ -86,7 +96,10 @@ import { Ex14Component } from './exercices/tasks/ex14/ex14.component';
     PanelMenuModule,
     FieldsetModule,
     PanelModule,
-    ImageModule 
+    ImageModule,
+    DividerModule,
+    CardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

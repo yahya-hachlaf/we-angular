@@ -1,0 +1,42 @@
+<h1 id="Title">1.3. HTML-Literatur lesen und Fragen beantworten</h1>
+<div id="aufgabe">
+
+  <p-panel id="first" header="Berechnen Sie die Spezifität folgender CSS-Selektoren:">
+    <ol>
+      <li><span>div div div:focus </span><span class="spacy"></span><span> .inner</span></li>
+      <li>h1 + div.main</li>
+      <li>div a:link[href*='h-brs']</li>
+      <li>nav &gt; a:hover::before</li>
+      <li><span>ul#primary-nav </span><span class="spacy"></span><span> li.active</span></li>
+    </ol>
+    <p-card>
+      <ol>
+        <li>div div div:focus .inner = 32 Spezifität</li>
+        <li>h1 + div.main = 12 Spezifität</li>
+        <li>div a:link[href*='h-brs'] = 22 Spezifität</li>
+        <li>nav > a:hover::before =13 Spezifität</li>
+        <li>ul#primary-nav li.active = 112 Spezifität</li>
+      </ol>
+    </p-card>
+  </p-panel>
+
+  <p-panel id="second" header="Rechnen Sie folgende RGB-Werte in HSL-Werte um:">
+    <ol>
+      <li>#ffffff</li>
+      <li>#000</li>
+      <li>#ab0978</li>
+      <li>rgb(127,255,33)</li>
+      <li>rgba(255,127,33,0.8)</li>
+    </ol>
+    <p-card>
+      <ol>
+        <li>#ffffff = HSL (0,0%,1000%)</li>
+        <li>#000= HSL (0,0%,0%)</li>
+        <li>#ab0978=HSL(319, 90%, 35%)</li>
+        <li>rgb(127,255,33)=HSL(95, 100%, 56%)</li>
+        <li>rgba(255,127,33,0.8) = hsla(25, 100%, 56%, 0.8)</li>
+      </ol>
+    </p-card>
+  </p-panel>
+
+</div>
