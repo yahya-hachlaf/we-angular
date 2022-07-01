@@ -1,0 +1,68 @@
+.hg__header {
+  grid-area: header;
+  background-color: red;
+}
+
+.hg__main {
+  grid-area: main;
+  background-color: blue;
+}
+
+.hg__left {
+  grid-area: left-sidebar;
+  background-color: lightgreen;
+}
+
+.hg__right {
+  grid-area: right-sidebar;
+  background-color: lightpink;
+}
+
+.hg__container {
+       display: grid;
+       min-height: 100vh;
+       height: 100vh;
+       grid-template-areas:
+                     "header"
+                     "left-sidebar"
+                     "main"
+                     "main"
+                     "right-sidebar";
+       grid-template-columns: 1fr;
+}
+
+/*for chrome*/
+.container::-webkit-scrollbar {
+   display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+
+@media screen and (min-width: 500px) {
+ .hg__container {
+ display: grid;
+ grid-template-areas: "header header"
+                      "left-sidebar main "
+                        "right-sidebar right-sidebar"
+                        ;
+ grid-template-columns: 1fr 2fr;
+ grid-template-rows: 150px 1fr 100px 30px;
+ min-height: 100vh;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+ .hg__container {
+ display: grid;
+ grid-template-areas: "header header header"
+                      "left-sidebar main right-sidebar";
+ grid-template-columns: 150px 1fr 150px;
+ grid-template-rows: 100px 1fr 30px;
+ min-height: 100vh;
+}
+}
