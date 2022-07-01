@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ex23.component.scss']
 })
 export class Ex23Component implements OnInit {
-
+  data!: string;
+  selectedCities: string[] = [];
   constructor() { }
 
   ngOnInit(): void {

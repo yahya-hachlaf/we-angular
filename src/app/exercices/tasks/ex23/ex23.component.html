@@ -1,0 +1,92 @@
+<h1 id="Title">2.3. Wireframe with HTML and CSS</h1>
+<div id="aufgabe">
+
+  <p-panel id="first"
+    header="Schreiben Sie Ihren CSS-Code direkt in die HTML-Datei. Geben Sie Ihren HTML- und CSS-Quellcode zusammen in dieses Textfeld ein:">
+    <img src="https://kaul.inf.h-brs.de/we/assets/img/survey.png" alt="survey form" style="max-width:600px;width:100%;">
+    <p-card>
+      <div class="Table_div">
+        <h1>Let us know how we can improve freeCodeCamp</h1>
+        <table class="tbl">
+          <tr>
+            <td class="left">*Name:</td>
+            <td class="right">
+              <input type="text" pInputText placeholder=" Enter your name">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">*Email:</td>
+            <td class="right">
+              <input type="text" pInputText placeholder="Enter your Email">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">*Age:</td>
+            <td class="right">
+              <input type="text" pInputText placeholder="Age">
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Which option best describes your current role?</td>
+            <td class="right">
+              <mat-form-field appearance="fill">
+                <mat-label>Choose a role</mat-label>
+                <select matNativeControl required>
+                  <option value="Student">Student</option>
+                  <option value="Employee">Employee</option>
+                  <option value="Employer">Employer</option>
+                  <option value="Unemployed">Unemployed</option>
+                </select>
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">*How likely is that you would recommend
+              freeCodeCamp to a friend?</td>
+            <td class="right">
+              <mat-radio-group aria-label="Select an option" class="radio-group">
+                <mat-radio-button class="radio-button" value="1">Option 1</mat-radio-button>
+                <mat-radio-button class="radio-button" value="2">Option 2</mat-radio-button>
+              </mat-radio-group>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">What do you like the most in FCC </td>
+            <td class="right">
+              <mat-form-field appearance="fill">
+                <mat-label>Select an option</mat-label>
+                <select matNativeControl>
+                  <option value="Tutorials">Tutorials</option>
+                  <option value="Projects">Projects</option>
+                  <option value="Exercises">Exercises</option>
+                </select>
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <td class="left">Things that should be improved in the future <br />
+              (Check all that apply)
+            </td>
+            <td class="right">
+              <section class="check">
+                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
+                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
+                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
+              </section>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+    </p-card>
+
+  </p-panel>
+
+  <p-panel id="second" header="">
+
+    <p-card>
+    </p-card>
+  </p-panel>
+
+</div>
