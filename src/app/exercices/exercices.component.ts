@@ -71,23 +71,23 @@ export class ExercicesComponent implements OnInit {
       {
         label: '8. Async',
         items: [
-          { label: 'Aufgabe 1', routerLink: 'ex11' },
-          { label: 'Aufgabe 2', routerLink: 'ex12' }
+          { label: 'Aufgabe 1', routerLink: 'ex81' },
+          { label: 'Aufgabe 2', routerLink: 'ex82' }
         ]
       },
       {
         label: '9. SVG',
         items: [
-          { label: 'Aufgabe 1', routerLink: 'ex11' },
-          { label: 'Aufgabe 2', routerLink: 'ex12' }
+          { label: 'Aufgabe 1', routerLink: 'ex91' },
+          { label: 'Aufgabe 2', routerLink: 'ex92' }
         ]
       },
       {
         label: '10. TypeScript',
         items: [
-          { label: 'Aufgabe 1', routerLink: 'ex11' },
-          { label: 'Aufgabe 2', routerLink: 'ex12' },
-          { label: 'Aufgabe 3', routerLink: 'ex11' }
+          { label: 'Aufgabe 1', routerLink: 'ex101' },
+          { label: 'Aufgabe 2', routerLink: 'ex102' },
+          { label: 'Aufgabe 3', routerLink: 'ex103' }
         ]
       },
       {
