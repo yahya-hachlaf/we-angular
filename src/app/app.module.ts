@@ -38,6 +38,14 @@ import { PanelModule } from 'primeng/panel';
 import { ImageModule } from 'primeng/image';
 import { DividerModule } from 'primeng/divider';
 import { CardModule } from 'primeng/card';
+import { MatSelectModule } from '@angular/material/select';
+import { RadioButtonModule } from 'primeng/radiobutton';
+import { MatRadioModule } from '@angular/material/radio';
+import { CheckboxModule } from 'primeng/checkbox';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
+
+
 
 
 
@@ -50,6 +58,21 @@ import { Ex14Component } from './exercices/tasks/ex14/ex14.component';
 import { Ex21Component } from './exercices/tasks/ex21/ex21.component';
 import { Ex22Component } from './exercices/tasks/ex22/ex22.component';
 import { Ex23Component } from './exercices/tasks/ex23/ex23.component';
+import { Ex31Component } from './exercices/tasks/ex31/ex31.component';
+import { Ex32Component } from './exercices/tasks/ex32/ex32.component';
+import { Ex33Component } from './exercices/tasks/ex33/ex33.component';
+import { Ex41Component } from './exercices/tasks/ex41/ex41.component';
+import { Ex42Component } from './exercices/tasks/ex42/ex42.component';
+import { Ex43Component } from './exercices/tasks/ex43/ex43.component';
+import { Ex44Component } from './exercices/tasks/ex44/ex44.component';
+import { Ex51Component } from './exercices/tasks/ex51/ex51.component';
+import { Ex52Component } from './exercices/tasks/ex52/ex52.component';
+import { Ex53Component } from './exercices/tasks/ex53/ex53.component';
+import { Ex61Component } from './exercices/tasks/ex61/ex61.component';
+import { Ex62Component } from './exercices/tasks/ex62/ex62.component';
+import { Ex63Component } from './exercices/tasks/ex63/ex63.component';
+import { Ex64Component } from './exercices/tasks/ex64/ex64.component';
+import { Ex65Component } from './exercices/tasks/ex65/ex65.component';
 
 
 @NgModule({
@@ -66,7 +89,22 @@ import { Ex23Component } from './exercices/tasks/ex23/ex23.component';
     Ex14Component,
     Ex21Component,
     Ex22Component,
-    Ex23Component
+    Ex23Component,
+    Ex31Component,
+    Ex32Component,
+    Ex33Component,
+    Ex41Component,
+    Ex42Component,
+    Ex43Component,
+    Ex44Component,
+    Ex51Component,
+    Ex52Component,
+    Ex53Component,
+    Ex61Component,
+    Ex62Component,
+    Ex63Component,
+    Ex64Component,
+    Ex65Component
   ],
   imports: [
     BrowserModule,
@@ -98,7 +136,12 @@ import { Ex23Component } from './exercices/tasks/ex23/ex23.component';
     PanelModule,
     ImageModule,
     DividerModule,
-    CardModule
+    CardModule,
+    MatSelectModule,
+    RadioButtonModule,
+    MatRadioModule,
+    CheckboxModule,
+    MatCheckboxModule
 
   ],
   providers: [],
