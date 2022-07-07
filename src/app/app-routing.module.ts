@@ -34,6 +34,9 @@ import { Ex92Component } from './exercices/tasks/ex92/ex92.component';
 import { Ex101Component } from './exercices/tasks/ex101/ex101.component';
 import { Ex102Component } from './exercices/tasks/ex102/ex102.component';
 import { Ex103Component } from './exercices/tasks/ex103/ex103.component';
+import { Ex111Component } from './exercices/tasks/ex111/ex111.component';
+import { Ex112Component } from './exercices/tasks/ex112/ex112.component';
+import { Ex113Component } from './exercices/tasks/ex113/ex113.component';
 
 
 
@@ -75,6 +78,9 @@ const routes: Routes = [
         { path: 'ex101', component: Ex101Component },
         { path: 'ex102', component: Ex102Component },
         { path: 'ex103', component: Ex103Component },
+        { path: 'ex111', component: Ex111Component },
+        { path: 'ex112', component: Ex112Component },
+        { path: 'ex113', component: Ex113Component },
 
 
       ]

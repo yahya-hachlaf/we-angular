@@ -6,3 +6,9 @@
   right: 0;
   background: #eee;
 }
+::ng-deep {
+  .mat-drawer.mat-drawer-side {
+    z-index: 0 !important;
+  }
+}
+

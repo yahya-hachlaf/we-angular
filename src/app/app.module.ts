@@ -82,6 +82,9 @@ import { Ex92Component } from './exercices/tasks/ex92/ex92.component';
 import { Ex101Component } from './exercices/tasks/ex101/ex101.component';
 import { Ex102Component } from './exercices/tasks/ex102/ex102.component';
 import { Ex103Component } from './exercices/tasks/ex103/ex103.component';
+import { Ex111Component } from './exercices/tasks/ex111/ex111.component';
+import { Ex112Component } from './exercices/tasks/ex112/ex112.component';
+import { Ex113Component } from './exercices/tasks/ex113/ex113.component';
 
 
 @NgModule({
@@ -122,7 +125,10 @@ import { Ex103Component } from './exercices/tasks/ex103/ex103.component';
     Ex92Component,
     Ex101Component,
     Ex102Component,
-    Ex103Component
+    Ex103Component,
+    Ex111Component,
+    Ex112Component,
+    Ex113Component
   ],
   imports: [
     BrowserModule,
