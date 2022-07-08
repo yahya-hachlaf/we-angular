@@ -3,10 +3,14 @@
 
   <p-panel id="first"
     header="Schreiben Sie Ihren CSS-Code direkt in die HTML-Datei. Geben Sie Ihren HTML- und CSS-Quellcode zusammen in dieses Textfeld ein:">
-    <img src="https://kaul.inf.h-brs.de/we/assets/img/survey.png" alt="survey form" style="max-width:600px;width:100%;">
-    <p-card>
+    <img src="https://kaul.inf.h-brs.de/we/assets/img/survey.png" alt="survey form" style="
+    max-width:600px;
+    width:100%;display: block;
+    margin-left: auto;
+    margin-right: auto;">
+    <p-card [style]="{'margin-top': '30px'}">
       <div class="Table_div">
-        <h1>Let us know how we can improve freeCodeCamp</h1>
+        <h1 style="text-align: center;">Let us know how we can improve freeCodeCamp</h1>
         <table class="tbl">
           <tr>
             <td class="left">*Name:</td>
@@ -69,9 +73,15 @@
             </td>
             <td class="right">
               <section class="check">
-                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
-                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
-                <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
+                <p>
+                  <mat-checkbox formControlName="Front-end">Front-end Projects</mat-checkbox>
+                </p>
+                <p>
+                  <mat-checkbox formControlName="Back-end">Back-end Projects</mat-checkbox>
+                </p>
+                <p>
+                  <mat-checkbox formControlName="Data">Data Visualization</mat-checkbox>
+                </p>
               </section>
             </td>
           </tr>
@@ -83,10 +93,10 @@
 
   </p-panel>
 
-  <p-panel [style]="{'margin-top': '10px'}" id="second" header="">
+  <p-panel [style]="{'margin-top': '10px'}" id="second"
+  header="Was war in der Lösung dieser Aufgabe die größte Schwierigkeit und wie haben Sie diese gelöst?">
 
-    <p-card>
-    </p-card>
+    Die richtige Umsetzung der Table und der CSS Styling.
   </p-panel>
 
 </div>

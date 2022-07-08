@@ -1,11 +1,19 @@
-#Title{
+#Title {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: aquamarine;
 }
 
-#aufgabe{
+#aufgabe {
   margin: 50px;
 }
 
+::ng-deep {
+  .p-image-preview-container > img {
+    height: 100%;
+    width: 100%;
+  }
+  .p-panel .p-panel-header .p-panel-title{
+    line-height: 150%;
+  }
+}

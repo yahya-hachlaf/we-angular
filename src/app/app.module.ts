@@ -42,7 +42,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { MatRadioModule } from '@angular/material/radio';
 import { CheckboxModule } from 'primeng/checkbox';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 
 
@@ -165,7 +168,9 @@ import { Ex113Component } from './exercices/tasks/ex113/ex113.component';
     RadioButtonModule,
     MatRadioModule,
     CheckboxModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatInputModule
 
   ],
   providers: [],
