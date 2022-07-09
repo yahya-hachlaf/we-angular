@@ -53,7 +53,6 @@ import { MatInputModule } from '@angular/material/input';
 
 
 
-
 import { Ex11Component } from './exercices/tasks/ex11/ex11.component';
 import { Ex12Component } from './exercices/tasks/ex12/ex12.component';
 import { Ex13Component } from './exercices/tasks/ex13/ex13.component';
